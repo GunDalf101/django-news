@@ -2,7 +2,7 @@
 {% block content %}
 <h1 class="card m-3">New article</h1>
 <form action="" method="post" class="card m-3">{% csrf_token %}
-    {{ form.as_p|linebreaksbr }}
+    {{ form.as_p}}
     <button class="btn btn-success ml-2" type="submit">Save</button>
 </form>
 {% endblock content %}
