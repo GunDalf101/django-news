@@ -8,7 +8,7 @@
             <span class="text-muted">by {{ article.author }} | {{ article.date }}</span>
         </div>
         <div class="card-body">
-            <p>{{ article.body }}</p>
+            <p>{{ article.body|linebreaksbr }}</p>
 
             <a href="{% url 'article_edit' article.pk %}">Edit</a> |
             <a href="{% url 'article_delete' article.pk %}">Delete</a>
