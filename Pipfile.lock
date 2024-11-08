@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "78d8e82ecbe11f3c37d18cfceae40108b3dea6826aa1513084b1ee937400cb0d"
+            "sha256": "e425dd93480a842309ea966d119b717884cb77956d49bedbb6d810be9f21c8d5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==3.8.1"
+        },
+        "crispy-bootstrap4": {
+            "hashes": [
+                "sha256:138a97884044ae4c4799c80595b36c42066e4e933431e2e971611e251c84f96c",
+                "sha256:503e8922b0f3b5262a6fdf303a3a94eb2a07514812f1ca130b88f7c02dd25e2b"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==2024.10"
         },
         "dj-database-url": {
             "hashes": [
@@ -93,11 +102,11 @@
         },
         "packaging": {
             "hashes": [
-                "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002",
-                "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+                "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759",
+                "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==24.1"
+            "version": "==24.2"
         },
         "psycopg2-binary": {
             "hashes": [
