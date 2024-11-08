@@ -44,13 +44,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic', 
     'django.contrib.staticfiles',
-    'crispy_bootstrap4',
+    'crispy_bootstrap5',
     'accounts',
     'pages',
     'articles',
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
